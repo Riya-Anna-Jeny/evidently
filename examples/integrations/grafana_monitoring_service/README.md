@@ -25,12 +25,11 @@ git clone git@github.com:evidentlyai/evidently.git
 ```bash
 cd evidently/examples/integrations/grafana_monitoring_service/
 ```
-- install dependencies for the data preparation script
+- Install dependencies for a data preparation script:
 ```bash
 pip install -r requirements.txt
 ```
-- Run the data preparation script `prepare_datasets.py` from the example directory 
-  - specify a dataset name with `--dataset` or `-d` option  
+- Run the data preparation script `prepare_datasets.py` from the example directory. You can specify a dataset name with `--dataset` or `-d` option:  
   - use `bike` if you want to get data for `data_drift` and `regression_performance`
   - use `kddcup99` if you want to get data for `classification_performance`
   - the script will use `bike` as a default
